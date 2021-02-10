@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+    padding-top:800px;
+   text-align: center;
+}
+#image{
+    width:200px;
+    margin-bottom:50px;
+    border-radius: 50%;
+    box-shadow: 20px;
+    
+}
+#WELCOME{
+    position: absolute;
+    height: 800px;
+    background:linear-gradient(#34e8eb 0%,#63f700 100%);
+    top:0;
+    bottom: 0;
+    right:0;
+    left: 0;
+    display: table;
+    z-index: 10;
+    width:100%;
+}
+.parallax-inner{
+    display: table-cell;
+    position: relative;
+    vertical-align: middle;
+    text-align: center;
+    
+}
+h1{
+     font-family: 'Open Sans', sans-serif;
+}
+h2{
+    font-family: 'Yusei Magic', sans-serif;
+}
+.LINE{
+    height:6px;
+    background-color: black;
+    width:80px;
+    margin:8px auto;
+    text-align: center;
+    
+}
+#BIO{
+    text-align: center;
+    padding: 50px;
+}
+.menu{
+    font-family:cursive;
+    list-style: none;
+    top: 0px;
+   width: 100%;
+    cursor: pointer;
+    z-index: 11;
+   position: fixed;
+    background: #c4fff5;
+}
+.link{
+   display: inline;
+    font-family: 'Fraunces', serif;
+    font-size: 20px;
+    padding:5px;
+    font-family: 'Fraunces', serif;
+font-family: 'Yusei Magic', sans-serif;
+    
+}
+
+.link:hover{
+   font-size: 25px;
+     text-decoration: underline;
+}
+p{
+    margin:25px auto;
+    line-height: 1.5;
+    
+}
+a{
+    text-decoration: none;
+    color: #10036e;
+    text-shadow: 1.99px 1.99px #ffc403;
+}
+.ARTICLES:hover{
+    color:aqua;
+    
+}
+#ARTICLES a{
+    text-shadow: none !important;
+    color: #fa9c0f !important;
+}
+.Contact0 h4{
+    display:inline;
+}
+    
+
